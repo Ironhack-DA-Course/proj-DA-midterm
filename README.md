@@ -77,6 +77,8 @@ uv add package_name
 ...
 
 # Dataset 
+Evaluate yahoo api to retrieve history news -> not available for a long timeframe
+
 ...
 
 ## Main dataset issues
