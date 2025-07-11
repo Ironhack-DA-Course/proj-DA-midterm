@@ -1,12 +1,16 @@
-# Project overview
-Credit Risk Data Analysis  was group project that me and 3 other colleagues had to complete during our fourth week of the  bootcamp. 
+# Project overview - Credit Risk Data Analysis 
 
-We did the data cleaning using pandas functions such as .replace,map function etc.. Then we export it as a CSV.
+With the new policy and reserved fund, our bank aims to offer existing customers some credit product. 
+The objective is minimizing risk by avoiding loans to customers classified as high-risk with poor credit scores. 
+This strategy will be also implemented by targeting and acquiring good customers.
+
+We did the data cleaning using pandas functions such as .replace,map function etc.., then export it as a CSV.
 In order to analyse the data we used groupby in pandas with aggregate functions.
 With the results from the functions we have created some visualizations also.
 
-Dataset: https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
-Slides : https://docs.google.com/presentation/d/12ohVUDCfmn3gUf3rh3gCu7MOkmfEcNccA44wJ2z5fxo/edit?slide=id.gd1bf8d60a4_0_0#slide=id.gd1bf8d60a4_0_0
+- Dataset: https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+- Slides : https://docs.google.com/presentation/d/12ohVUDCfmn3gUf3rh3gCu7MOkmfEcNccA44wJ2z5fxo/edit?slide=id.gd1bf8d60a4_0_0#slide=id.gd1bf8d60a4_0_0
+- Trello : https://trello.com/invite/b/6867ef71ab27315759d757cd/ATTI1e226f0a98ffdaf5d9a4ceedebdde02792D91D40/my-trello-board
 
 # Installation
 
@@ -81,24 +85,38 @@ uv add package_name
 ```
 
 # Questions 
-...
+- Loans taken for business and education is more riskier than other loans
+- If customers has a problem in their credit history they will likely classified as bad score
+- Accounts with no checking accounts are most likely critical accounts
+- Credit score changes based on identity (e.g., gender,marital status,age etc.) 
 
 # Dataset 
-Evaluate yahoo api to retrieve history news -> not available for a long timeframe
-
-...
+German Credit Data – 1,000 customer records with features like loan purpose, credit history, checking account status, ...
 
 ## Main dataset issues
 
-- ...
-- ...
-- ...
+- Encoded data to decode
+- Inconsistent string formats (capitalization, spacing)
+- Multi-label values (e.g., “male/single,female/divorced etc.”)
+
 
 ## Solutions for the dataset issues
-...
+
+- Renamed and standardized columns
+- Converted string values to lowercase
+- Grouped and aggregated for ratio analysis
+- Using lower case to clean text
+- Map functions to change from attributes to variables
+- Lambda functions for flagging key credit risk indicators
 
 # Conclussions
-...
+
+❌ Business and education most riskly group -> new car and furniture are the part of our risky group
+❌ Customers with problem in their credit history are likely to have bad score -> Customers, who paid back duly, are among the risky group
+✅ No checking account correlates with critical history  -> Strongly supported
+❌ Young applicants show highest bad rate -> Male: divorced/separated and female: married/divorced are the riskiest segments.
+
 
 # Next steps
-...
+- Expand the project to connect with SQL
+- Update data
