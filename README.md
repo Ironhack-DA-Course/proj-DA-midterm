@@ -8,9 +8,9 @@ We did the data cleaning using pandas functions such as .replace,map function et
 In order to analyse the data we used groupby in pandas with aggregate functions.
 With the results from the functions we have created some visualizations also.
 
-Dataset: https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
-Slides : https://docs.google.com/presentation/d/12ohVUDCfmn3gUf3rh3gCu7MOkmfEcNccA44wJ2z5fxo/edit?slide=id.gd1bf8d60a4_0_0#slide=id.gd1bf8d60a4_0_0
-Trello : https://trello.com/invite/b/6867ef71ab27315759d757cd/ATTI1e226f0a98ffdaf5d9a4ceedebdde02792D91D40/my-trello-board
+- Dataset: https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+- Slides : https://docs.google.com/presentation/d/12ohVUDCfmn3gUf3rh3gCu7MOkmfEcNccA44wJ2z5fxo/edit?slide=id.gd1bf8d60a4_0_0#slide=id.gd1bf8d60a4_0_0
+- Trello : https://trello.com/invite/b/6867ef71ab27315759d757cd/ATTI1e226f0a98ffdaf5d9a4ceedebdde02792D91D40/my-trello-board
 
 # Installation
 
