@@ -111,10 +111,10 @@ German Credit Data – 1,000 customer records with features like loan purpose, c
 
 # Conclussions
 
-❌ Business and education most riskly group -> new car and furniture are the part of our risky group
-❌ Customers with problem in their credit history are likely to have bad score -> Customers, who paid back duly, are among the risky group
-✅ No checking account correlates with critical history  -> Strongly supported
-❌ Young applicants show highest bad rate -> Male: divorced/separated and female: married/divorced are the riskiest segments.
+- ❌ Business and education most riskly group -> new car and furniture are the part of our risky group
+- ❌ Customers with problem in their credit history are likely to have bad score -> Customers, who paid back duly, are among the risky group
+- ✅ No checking account correlates with critical history  -> Strongly supported
+- ❌ Young applicants show highest bad rate -> Male: divorced/separated and female: married/divorced are the riskiest segments.
 
 
 # Next steps
